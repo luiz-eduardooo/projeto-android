@@ -18,6 +18,7 @@
         body{
             background-color: #0c850c67;
             width: auto;
+            width: 100%;
         }
         header{
             width: 100%;
@@ -31,6 +32,18 @@
             color: white;
             text-shadow: 2px 2px 1px black;
             font-weight: normal;
+            margin-bottom: 20px;
+            font-size: 3em;
+        }
+        header > p{
+            font-size: 1.2em;
+            color: white;
+            max-width: 600px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 50px;
+            margin: auto;
+            text-shadow: 2px 2px 0px black;
         }
         p{
             text-align: justify;
@@ -86,9 +99,14 @@
             text-decoration:none ;
         }
         picture > img{
-            width: 100%;
             margin: auto;
             display: block;
+            width: 100%;
+        }
+        picture > source{
+            display: block;
+            margin: auto;
+            max-width: 350px;
         }
         article > img.pequena{
             display: block;
